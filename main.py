@@ -30,7 +30,7 @@ while True:
         result = calculate_root(number, root)
         print(result)
     elif choice == '6':
-        print("We await your next visit.)
+        print("We await your next visit.")
         break
     else:
         print("Please choose a valid option")
