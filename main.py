@@ -5,8 +5,8 @@ while True:
     print("Welcome to the calculator")
     print("To collect 1")
     print("For subtraction 2")
-    print("For multiplication 2")
-    print("For division 2")
+    print("For multiplication 3")
+    print("For division 4")
     print("For carrots 5")
     print("To exit 6")
 
@@ -30,6 +30,7 @@ while True:
         result = calculate_root(number, root)
         print(result)
     elif choice == '6':
+        print("We await your next visit.)
         break
     else:
         print("Please choose a valid option")
